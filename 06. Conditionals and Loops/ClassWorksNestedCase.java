@@ -4,7 +4,6 @@ public class ClassWorksNestedCase {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         /*Describe Fruit*/
-/*
         String fruit = input.next();
         switch (fruit) {
             case "mango" -> System.out.println("Mango is yellow in color.");
@@ -13,7 +12,6 @@ public class ClassWorksNestedCase {
             case "banana" -> System.out.println("Banana is yellow in color.");
             case "litchi" -> System.out.println("Litchi is grey from inside in color.");
         }
-*/
         /*Display day between 1 and 7*/
 
 /*    int userDay = input.nextInt();
