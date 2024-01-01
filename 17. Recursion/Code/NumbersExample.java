@@ -25,6 +25,8 @@ public class NumbersExample {
             return;
         }
         System.out.println(n);
+        // This is tail recursion. when the function is the last
+        // statement of a recursive function.
         printN(n+1);
     }
 }
