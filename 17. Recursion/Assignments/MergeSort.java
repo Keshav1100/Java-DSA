@@ -7,6 +7,7 @@ public class MergeSort {
         //System.out.println(Arrays.toString(mergeSort1(sample)));
         System.out.println(Arrays.toString(sample));
     }
+    // Method 1: returning a new array
     public static int[] mergeSort1(int[] arr){
         // Base condition
         if(arr.length == 1){
@@ -59,6 +60,8 @@ public class MergeSort {
         return newArr;
     }
 
+
+    // Method 2: Changing the original array itself
     public static void mergeSortInPlace(int[] arr,int s,int e){
         // Base condition
         if(e-s == 1){
